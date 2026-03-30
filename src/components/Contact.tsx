@@ -41,7 +41,7 @@ export function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-1">Email</h3>
-                <p className="text-muted-foreground">deepak9285@example.com</p>
+                <p className="text-muted-foreground">kumardeepakshah9285@gmail.com</p>
               </div>
             </div>
 
@@ -60,7 +60,7 @@ export function Contact() {
               <p className="text-muted-foreground mb-6">
                 I am currently open to full-time roles and exciting freelance projects.
               </p>
-              <Button onClick={() => window.open('https://www.linkedin.com/in/deepak-kumar-sah/', '_blank')} className="w-full">
+              <Button onClick={() => window.open('https://linkedin.com/in/deepak-kumar-shah-2669ab188', '_blank')} className="w-full">
                 Connect on LinkedIn
               </Button>
             </div>
@@ -97,7 +97,7 @@ export function Contact() {
                   />
                 </div>
               </div>
-              
+
               <div className="space-y-2">
                 <label htmlFor="subject" className="text-sm font-medium text-foreground">Subject</label>
                 <input

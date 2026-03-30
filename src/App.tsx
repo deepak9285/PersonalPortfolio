@@ -12,7 +12,7 @@ import { Footer } from "./components/Footer";
 function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="portfolio-theme">
-      <div className="min-h-screen bg-background text-foreground font-sans selection:bg-primary/30 selection:text-primary">
+      <div className="min-h-screen bg-background text-foreground font-sans selection:bg-primary/30 selection:text-primary relative overflow-x-hidden">
         <Navbar />
         <main>
           <Hero />

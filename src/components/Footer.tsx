@@ -21,7 +21,7 @@ export function Footer() {
             <FiGithub size={20} />
           </a>
           <a
-            href="https://www.linkedin.com/in/deepak-kumar-sah/"
+            href="https://linkedin.com/in/deepak-kumar-shah-2669ab188"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors"
@@ -30,7 +30,7 @@ export function Footer() {
             <FiLinkedin size={20} />
           </a>
           <a
-            href="mailto:deepak9285@example.com"
+            href="mailto:kumardeepakshah9285.com"
             className="hover:text-primary transition-colors"
             aria-label="Email"
           >

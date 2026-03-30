@@ -46,14 +46,15 @@ export function Hero() {
           </div>
 
           <p className="max-w-xl mx-auto text-lg text-muted-foreground mb-10 leading-relaxed">
-            Building impactful mobile & web experiences focusing on scalable and user-friendly applications.
+            I specialize in React Native and Java-based backend development, with a strong focus on building scalable, high-performance mobile applications. I’ve developed full-stack apps like a real-time dating platform and an invite-only social meetup app, where I implemented features such as real-time communication, authentication systems, and optimized API flows.
+
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" className="w-full sm:w-auto" onClick={() => window.location.href = '#projects'}>
+            <Button size="lg" className="w-full hover:cursor-pointer sm:w-auto" onClick={() => window.location.href = '#projects'}>
               View Projects
             </Button>
-            <Button size="lg" variant="outline" className="w-full sm:w-auto" onClick={() => window.location.href = '#contact'}>
+            <Button size="lg" variant="outline" className="w-full hover:cursor-pointer sm:w-auto" onClick={() => window.location.href = '#contact'}>
               Contact Me
             </Button>
           </div>

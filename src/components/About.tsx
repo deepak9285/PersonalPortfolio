@@ -47,32 +47,34 @@ export function About() {
           >
             <h3 className="text-2xl font-semibold mb-2">Full Stack Developer</h3>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              I am a passionate developer committed to building scalable and user-friendly applications.
-              Currently, I focus on creating seamless web and mobile experiences that merge beautiful design
-              with optimal performance.
-            </p>
-            <p className="text-muted-foreground text-lg leading-relaxed">
-              During my internship at Matrix Innovation, I gained valuable industry experience, honing my
-              problem-solving skills and collaborating on impactful projects.
+              Software developer with strong problem-solving skills, having solved 600+ DSA problems across LeetCode, CodeChef, and GeeksforGeeks. Experienced in building scalable full-stack applications using Java, Spring Boot, and React Native.
             </p>
 
+            <p className="text-muted-foreground text-lg leading-relaxed">
+              Interned at Matrix Innovation and PTC, working on real-world systems and production-level code. I am currently deepening my expertise in <span className="font-medium text-foreground">System Design</span>, applying strong <span className="font-medium text-foreground">systems thinking</span> to architect scalable, resilient, and highly available solutions for complex business cases.
+            </p>
             <div className="pt-4 border-t border-border mt-4">
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 <div>
                   <h4 className="font-semibold text-foreground">Experience</h4>
-                  <p className="text-muted-foreground">Matrix Innovation</p>
+                  <p className="text-muted-foreground text-sm mt-1">PTC Software & Matrix</p>
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Problem Solving</h4>
-                  <p className="text-muted-foreground">600+ DSA Problems</p>
+                  <p className="text-muted-foreground text-sm mt-1">600+ DSA Problems</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground">Architecture</h4>
+                  <p className="text-muted-foreground text-sm mt-1">System Design & Thinking</p>
                 </div>
               </div>
             </div>
-
             <div className="pt-6">
-              <Button size="lg" className="flex items-center gap-2">
-                <FiDownload /> Download Resume
-              </Button>
+              <a href="/DeepakResume.pdf" download>
+                <Button size="lg" className="flex items-center gap-2 hover:cursor-pointer">
+                  <FiDownload /> Download Resume
+                </Button>
+              </a>
             </div>
           </motion.div>
         </div>
